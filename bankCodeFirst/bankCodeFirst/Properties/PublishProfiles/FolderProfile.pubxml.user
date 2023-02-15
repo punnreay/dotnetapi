@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\publishAPI\bank</_PublishTargetUrl>
+    <History>True|2023-02-14T13:53:55.5260636Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnectionString">
+      <Value>Server=DESKTOP-IG4FEVM%3bDatabase=BankCodeEfFirst%3b uid=sa%3bpwd=12345%3bTrustServerCertificate=True%3b encrypt=false</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="bankCodeFirst.Data.BankContext">
+      <Value>Server=DESKTOP-IG4FEVM%3bDatabase=BankCodeEfFirst%3b uid=sa%3bpwd=12345%3bTrustServerCertificate=True%3b encrypt=false</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
